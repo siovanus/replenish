@@ -51,7 +51,7 @@ func setUpPoly(polySdk *sdk.PolySdk, rpcAddr string) error {
 }
 
 func main() {
-	log.InitLog(log.InfoLog, "./Log/", log.Stdout)
+	log.InitLog(log.InfoLog, "./Logs/", log.Stdout)
 
 	conf, err := config.LoadConfig(confFile)
 	if err != nil {

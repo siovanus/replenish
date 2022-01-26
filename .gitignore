@@ -1,2 +1,5 @@
 .idea
 replenish
+*.json
+*.dat
+Logs
